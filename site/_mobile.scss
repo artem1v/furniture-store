@@ -1,0 +1,512 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        padding-top: 32px;
+        height: 57px;
+
+        &__input {
+            display: none;
+        }
+
+        &__Catalog {
+            font-size: 24px;
+            margin-bottom: 17px;
+            padding-top: 8px;
+        }
+    }
+
+    .menu {
+        display: none;
+
+        &-mob {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+    }
+
+    .jogo {
+        &__img {
+            width: 99px;
+        }
+    }
+
+    .title {
+        font-size: 48px;
+        text-align: center;
+        line-height: 59px;
+        margin-top: 28px;
+    }
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-content_title{
+            font-size: 48px;
+            text-align: center;
+            line-height: 59px;
+            margin-top: 82px;
+        }
+
+        &__text {
+            font-size: 16px;
+            line-height: 32px;
+            text-align: center;
+        }
+
+        &__link {
+            font-size: 14px;
+        }
+    }
+
+    .headline {
+        font-size: 24px;
+        line-height: normal;
+
+        &__tuxt_voda {
+            font-size: 18px;
+            margin-bottom: 6px
+        }
+
+        &__tuxt_ronald {
+            font-size: 18px;
+            margin-bottom: 7px;
+        }
+
+        &__tuxt_vent {
+            font-size: 18px;
+        }
+
+        &__picture_TATRAN {
+            height: 227px;
+            margin-bottom: 4px;
+        }
+
+        &__tuxt_TATRAN {
+            font-size: 18px;
+            margin-bottom: 6px;
+
+        }
+
+        &__tuxt_MENU {
+            font-size: 18px;
+            margin-bottom: 7px;
+        }
+
+        &__picture_MENU {
+            height: 231px;
+            margin-bottom: 2px;
+        }
+
+        &__picture_ASKESTA {
+            height: 230px;
+            margin-bottom: 3px;
+        }
+
+        &__tuxt_ASKESTA {
+            font-size: 18px;
+            margin-bottom: 6px;
+        }
+
+        &__picture_NORMAN {
+            height: 227px;
+            margin-bottom: 2px;
+        }
+
+        &__tuxt_NORMAN {
+            font-size: 18px;
+            margin-bottom: 7px;
+        }
+
+        &__picture_NASTAN {
+            height: 232px;
+            margin-bottom: 2px;
+        }
+
+        &__tuxt_NASTAN {
+            font-size: 18px;
+            margin-bottom: 6px;
+        }
+
+        &__picture_voda {
+            height: 226px;
+            margin-bottom: 2px;
+        }
+
+        &__picture_ronald {
+            height: 226px;
+            margin-bottom: 2px;
+        }
+
+        &__picture_vent {
+            height: 232px;
+            margin-bottom: 2px;
+        }
+
+        &__tuxt_vent {
+            margin-bottom: 7px;
+        }
+
+        &__picture {
+            height: 227px;
+            margin-bottom: 2px;
+        }
+
+
+    }
+
+    .section {
+        padding-top: 32px;
+
+        &-cart{
+            padding-top: 64px;
+        }
+
+        &__voda_price {
+            font-size: 18px;
+        }
+
+        &__voda_sale {
+            font-size: 18px;
+        }
+
+        &__tuxt_ronald {
+            margin-bottom: 4px;
+        }
+
+        &__tuxt_ronald-cart{
+            margin-bottom: 25px;
+        }
+
+        &__tuxt_vent {
+            margin-bottom: 4px;
+        }
+
+        &_Catalog {
+            padding-top: 9px;
+        }
+
+        &_Catalog-mobile{
+            padding-top: 30px;
+        }
+
+        &___ronald_price {
+            font-size: 18px;
+        }
+
+        &___ronald_sale {
+            font-size: 18px;
+        }
+
+        &___vent_price {
+            font-size: 18px;
+        }
+
+        &___vent_sale {
+            font-size: 18px;
+        }
+
+        &___TATRAN_price {
+            font-size: 18px;
+        }
+
+        &___MENU_price {
+            font-size: 18px;
+        }
+
+        &__tuxt_MENU {
+            margin-bottom: 4px;
+        }
+
+        &__tuxt_ASKESTA {
+            margin-bottom: 7px;
+        }
+
+        &___ASKESTA_price {
+            font-size: 18px;
+        }
+
+        &__tuxt_NORMAN {
+            margin-bottom: 2px;
+        }
+
+        &__tuxt_NORMAN-catalog{
+            margin-bottom: 22px;
+        }
+
+        &___NORMAN_price {
+            font-size: 18px;
+        }
+
+        &__tuxt_NASTAN {
+            margin-bottom: 5px;
+        }
+
+        &__NASTAN_price {
+            font-size: 18px;
+        }
+
+        &_Catalog {
+            margin-bottom: 32px;
+        }
+
+        &__tuxt_voda {
+            margin-bottom: 6px;
+            font-size: 14px;
+
+        }
+
+        &__tuxt_TATRAN {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+    }
+
+    .heading-big {
+        color: #FFF;
+        text-align: center;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 83px;
+    }
+
+
+
+    .for {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+
+        &__item {
+            grid-column: 1 / -1;
+            height: 375px;
+            font-size: 28px;
+            background-size: cover;
+
+
+
+            &_big {
+                height: 244px;
+            }
+        }
+
+        &-box {
+            padding-top: 32px;
+        }
+
+    }
+
+    .footer {
+        padding-bottom: 32px;
+
+        &__content {
+            gap: 24px;
+        }
+
+        &__info {
+            gap: 103px;
+            padding-left: 1px;
+        }
+
+        &__heading {
+            padding-top: 5px;
+            padding-bottom: 13px;
+        }
+
+        &__heading-cart{
+            padding-top: 3px;
+        }
+
+        &__heading-catalog{
+            padding-top: 0px;
+        }
+
+        &__icons {
+            display: none;
+        }
+
+    }
+
+    .breadcrumbs {
+        padding-bottom: 16px;
+    }
+
+
+
+    .product {
+
+        &__price {
+            font-size: 18px;
+        }
+
+        &-content {
+            row-gap: 28px;
+        }
+
+        &__heading {
+            font-size: 18px;
+            margin-bottom: 6px;
+        }
+
+        &__text {
+            font-size: 14px;
+            margin-bottom: 9px;
+        }
+
+    }
+
+    .form {
+        padding-bottom: 32px;
+        padding-top: 9px;
+        margin-left: 21px;
+
+        &__text {
+            margin-left: 17px;
+        }
+
+        &__email {
+            font-size: 17px;
+            width: 269px;
+            margin-left: 15px;
+        }
+
+        &__button {
+            width: 266px;
+            margin-left: 17px;
+        }
+
+        &__heading{
+            margin-top: 36px;
+        }
+
+        &__item{
+            margin-right: 25px;
+        }
+
+    }
+
+    .cart {
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 48px;
+
+        &__img {
+            display: none;
+        }
+
+        &__name {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        &__text {
+            font-size: 12px;
+            margin-bottom: 16px;
+        }
+
+        &__text-mobile{
+            margin-bottom: 11px;
+            font-size: 15px;
+
+        }
+
+        &__price {
+            font-size: 12px;
+            margin-bottom: 16px;
+        }
+
+        &__price-mobile{
+         font-size: 14px;
+         margin-bottom: 14px;
+
+        }
+
+        &__button {
+            width: 166px;
+            height: 37px;
+            font-size: 12px;
+            font-style: normal;
+
+            &-form {
+                font-size: 16px;
+            }
+        }
+
+        &__button_form{
+            width: 290px;
+        }
+
+        &__butto-box {
+            margin-top: 6px;
+            gap: 14px;
+        }
+
+        &__content {
+            grid-column: span 4;
+        }
+
+        &__form {
+            grid-column: span 4;
+            width: auto;
+            height: 499px;
+            margin-left: 0px;
+        }
+
+        &__name-box{
+            padding-bottom: 9px;
+ 
+        }
+
+        &__input{
+            padding-right: 32px;
+        }
+
+        &__item{
+            padding-top: 16px; 
+            padding-bottom: 21px;
+        }
+
+        &__info{
+            gap: 0px;
+            margin-bottom: 2px;
+
+        }
+
+
+    }
+
+    .catalog_nav {
+        padding-top: 32px;
+    }
+
+    .box {
+
+        &-link {
+            margin-top: 5px;
+        }
+
+        &__link-cart {
+            padding-bottom: 32px;
+            padding-top: 32px;
+        }
+
+        &__link-go {
+            padding-bottom: 32px;
+            padding-top: 32px;
+        }
+    }
+
+
+
+
+
+
+
+}
